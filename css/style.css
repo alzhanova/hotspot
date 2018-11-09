@@ -1,0 +1,844 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 366px;
+    margin: 0 auto;
+}
+
+h4 {
+    font-size: 25px !important;
+    font-weight: 450 !important;
+    padding-top: 70px;
+}
+
+.body1 {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.flex-nav {
+    display: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    stroke: #fff !important;
+}
+
+h5 {
+    font-size: 18px !important;
+    font-weight: 350 !important;
+    padding-top: 10px;
+}
+
+.bottom {
+    padding-bottom: 70px;
+}
+
+.btn2-div {
+    position: relative;
+    padding-top: 8vh;
+}
+
+.header {
+    background-image: url(../img/Desctop.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile {
+    display: none;
+}
+
+.header2 {
+    background-image: url(../img/header2.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.body2 {
+    text-align: center;
+    padding-top: 18vh;
+    color: #fff !important;
+    margin-left: 24%;
+    margin-right: 5%;
+}
+
+.second {
+    font-size: 40px;
+    color: #fff !important;
+    padding: 270px 0;
+}
+
+.margin {
+    margin-right: 33%;
+}
+
+.main-body {
+    display: flex;
+}
+
+.fas {
+    color: #fff;
+}
+
+h1 {
+    font-size: 35px !important;
+    text-align: left;
+    font-weight: 400 !important;
+}
+
+h3 {
+    font-size: 20px !important;
+    text-align: left;
+    font-weight: 300 !important;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+}
+
+.btn {
+    border-radius: 2rem !important;
+    font-size: 25px !important;
+    background-image: linear-gradient(to right, #f45743, #ed3949) !important;
+    padding: 10px 45px !important;
+    color: #fff;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.polit {
+    color: #000;
+    text-decoration: none;
+}
+
+.polit:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width: 359px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .mobile {
+        display: block;
+    }
+    .margin {
+        margin-right: 0;
+    }
+    .btn {
+        border-radius: 1.2rem !important;
+        font-size: 20px !important;
+        padding: 7px 20px !important;
+    }
+    .flex-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .btn-div {
+        justify-content: center;
+    }
+    h1 {
+        font-size: 25px !important;
+        text-align: center;
+        font-weight: 400 !important;
+    }
+    h3 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px !important;
+        padding-top: 40px;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    .header {
+        background-size: contain;
+        background-image: url(../img/Hot-Spo.gif);
+        min-height: 0;
+        background-position: 0 0;
+    }
+    .header2 {
+        background-size: cover;
+    }
+    .btn2-div {
+        position: relative;
+    }
+    .second {
+        font-size: 30px !important;
+        padding: 70px 0 !important;
+    }
+    .btn2-div {
+        background-color: #333333;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+        border: 1px solid #333333;
+        border-top-right-radius: 120px;
+        border-top-left-radius: 120px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+    }
+    .hot-spot {
+        display: flex;
+        justify-content: center;
+        padding: 70px 0;
+    }
+    .desktop {
+        display: none;
+    }
+    .body2 {
+        display: none;
+        color: #000 !important;
+    }
+    .polit {
+        color: #fff;
+        text-decoration: none;
+    }
+    .polit:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .mobile {
+        display: block;
+    }
+    .margin {
+        margin-right: 0;
+    }
+    .btn {
+        border-radius: 1.2rem !important;
+        font-size: 20px !important;
+        padding: 7px 20px !important;
+    }
+    .flex-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .btn-div {
+        justify-content: center;
+    }
+    h1 {
+        font-size: 25px !important;
+        text-align: center;
+        font-weight: 400 !important;
+    }
+    h3 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px !important;
+        padding-top: 40px;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    .header {
+        background-size: contain;
+        background-image: url(../img/Hot-Spo.gif);
+        min-height: 0;
+        background-position: 0 0;
+    }
+    .header2 {
+        background-size: cover;
+    }
+    .btn2-div {
+        position: relative;
+    }
+    .second {
+        font-size: 30px !important;
+        padding: 70px 0 !important;
+    }
+    .btn2-div {
+        background-color: #333333;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+        border: 1px solid #333333;
+        border-top-right-radius: 120px;
+        border-top-left-radius: 120px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+    }
+    .hot-spot {
+        display: flex;
+        justify-content: center;
+        padding: 120px 0;
+    }
+    .desktop {
+        display: none;
+    }
+    .body2 {
+        display: none;
+        color: #000 !important;
+    }
+    .polit {
+        color: #fff;
+        text-decoration: none;
+    }
+    .polit:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .mobile {
+        display: block;
+    }
+    .margin {
+        margin-right: 0;
+    }
+    .btn {
+        border-radius: 1.2rem !important;
+        font-size: 20px !important;
+        padding: 7px 20px !important;
+    }
+    .flex-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .btn-div {
+        justify-content: center;
+    }
+    h1 {
+        font-size: 25px !important;
+        text-align: center;
+        font-weight: 400 !important;
+    }
+    h3 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px !important;
+        padding-top: 40px;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    .header {
+        background-size: contain;
+        background-image: url(../img/Hot-Spo.gif);
+        min-height: 0;
+        background-position: 0 0;
+    }
+    .header2 {
+        background-size: cover;
+    }
+    .btn2-div {
+        position: relative;
+    }
+    .second {
+        font-size: 30px !important;
+        padding: 70px 0 !important;
+    }
+    .btn2-div {
+        background-color: #333333;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+        border: 1px solid #333333;
+        border-top-right-radius: 120px;
+        border-top-left-radius: 120px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+    }
+    .hot-spot {
+        display: flex;
+        justify-content: center;
+        padding: 140px 0;
+    }
+    .desktop {
+        display: none;
+    }
+    .body2 {
+        display: none;
+        color: #000 !important;
+    }
+    .polit {
+        color: #fff;
+        text-decoration: none;
+    }
+    .polit:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 550px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 22px;
+    }
+    .margin {
+        margin-right: 0;
+    }
+    .mobile {
+        display: block;
+    }
+    .btn-div {
+        justify-content: center;
+    }
+    .flex-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    h1 {
+        font-size: 25px !important;
+        text-align: center;
+        font-weight: 400 !important;
+    }
+    h3 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    h4 {
+        font-size: 25px !important;
+    }
+    h5 {
+        font-size: 20px !important;
+    }
+    .header {
+        background-size: contain;
+        background-image: url(../img/Hot-Spo.gif);
+        min-height: 0;
+        background-position: 0 0;
+    }
+    .header2 {
+        background-size: cover;
+    }
+    .body {
+        padding-top: 50px;
+    }
+    .btn2-div {
+        position: relative;
+    }
+    .container {
+        max-width: 500px;
+    }
+    .second {
+        font-size: 40px !important;
+        padding: 80px 0 !important;
+    }
+    .btn2-div {
+        background-color: #333333;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+        border: 1px solid #333333;
+        border-top-right-radius: 120px;
+        border-top-left-radius: 120px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+    }
+    .hot-spot {
+        display: flex;
+        justify-content: center;
+        padding: 150px 0;
+    }
+    .desktop {
+        display: none;
+    }
+    .btn {
+        border-radius: 1.2rem !important;
+        font-size: 25px !important;
+        background-image: linear-gradient(to right, #f45743, #ed3949) !important;
+        padding: 7px 20px !important;
+        color: #fff;
+        box-shadow: 0 4px 2px -2px gray;
+    }
+    .body2 {
+        display: none;
+        color: #000 !important;
+    }
+    .polit {
+        color: #fff;
+        text-decoration: none;
+    }
+    .polit:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 700px) {
+    .margin {
+        margin-right: 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 25px;
+    }
+    .mobile {
+        display: block;
+    }
+    .body2 {
+        display: none;
+        color: #000 !important;
+    }
+    .btn-div {
+        justify-content: center;
+    }
+    .flex-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    h1 {
+        font-size: 30px !important;
+        text-align: center;
+        font-weight: 400 !important;
+    }
+    h3 {
+        font-size: 25px !important;
+        text-align: center;
+    }
+    h4 {
+        font-size: 30px !important;
+    }
+    h5 {
+        font-size: 25px !important;
+    }
+    .header {
+        background-size: 100%;
+        background-image: url(../img/Hot-Spo.gif);
+        min-height: 0;
+        background-position: 0 0;
+    }
+    .header2 {
+        background-size: cover;
+    }
+    .body {
+        padding-top: 50px;
+    }
+    .btn2-div {
+        position: relative;
+    }
+    .container {
+        max-width: 500px;
+    }
+    .hot-spot {
+        padding: 270px 0;
+    }
+    .polit {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 20px !important;
+    }
+    .second {
+        font-size: 50px !important;
+        padding: 150px 0;
+    }
+    .btn2-div {
+        background-color: #333333;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+        border: 1px solid #333333;
+        border-top-right-radius: 120px;
+        border-top-left-radius: 120px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+    }
+    .hot-spot {
+        display: flex;
+        justify-content: center;
+        padding: 200px 0;
+    }
+    .desktop {
+        display: none;
+    }
+    .btn {
+        border-radius: 1.2rem !important;
+        font-size: 25px !important;
+        background-image: linear-gradient(to right, #f45743, #ed3949) !important;
+        padding: 7px 20px !important;
+        color: #fff;
+        box-shadow: 0 4px 2px -2px gray;
+    }
+    .body2 {
+        display: none;
+        color: #000 !important;
+    }
+    .polit {
+        color: #fff;
+        text-decoration: none;
+    }
+    .polit:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 800px) {
+    .margin {
+        margin-right: 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 25px;
+    }
+    .mobile {
+        display: block;
+    }
+    .body2 {
+        display: none;
+        color: #000 !important;
+    }
+    .btn-div {
+        justify-content: center;
+    }
+    .flex-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    h1 {
+        font-size: 30px !important;
+        text-align: center;
+        font-weight: 400 !important;
+    }
+    h3 {
+        font-size: 25px !important;
+        text-align: center;
+    }
+    h4 {
+        font-size: 30px !important;
+    }
+    h5 {
+        font-size: 25px !important;
+    }
+    .header {
+        background-size: 100%;
+        background-image: url(../img/Hot-Spo.gif);
+        min-height: 0;
+        background-position: 0 0;
+    }
+    .header2 {
+        background-size: cover;
+    }
+    .body {
+        padding-top: 50px;
+    }
+    .btn2-div {
+        position: relative;
+    }
+    .container {
+        max-width: 500px;
+    }
+    .hot-spot {
+        padding: 270px 0;
+    }
+    .polit {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 20px !important;
+    }
+    .second {
+        font-size: 50px !important;
+        padding: 150px 0;
+    }
+    .btn2-div {
+        background-color: #333333;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+        border: 1px solid #333333;
+        border-top-right-radius: 120px;
+        border-top-left-radius: 120px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+    }
+    .hot-spot {
+        display: flex;
+        justify-content: center;
+        padding: 250px 0;
+    }
+    .desktop {
+        display: none;
+    }
+    .btn {
+        border-radius: 1.2rem !important;
+        font-size: 25px !important;
+        background-image: linear-gradient(to right, #f45743, #ed3949) !important;
+        padding: 7px 20px !important;
+        color: #fff;
+        box-shadow: 0 4px 2px -2px gray;
+    }
+    .body2 {
+        display: none;
+        color: #000 !important;
+    }
+    .polit {
+        color: #fff;
+        text-decoration: none;
+    }
+    .polit:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+    .margin {
+        margin-right: 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 25px;
+    }
+    .mobile {
+        display: block;
+    }
+    .body2 {
+        display: none;
+        color: #000 !important;
+    }
+    .btn-div {
+        justify-content: center;
+    }
+    .flex-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    h1 {
+        font-size: 30px !important;
+        text-align: center;
+        font-weight: 400 !important;
+    }
+    h3 {
+        font-size: 25px !important;
+        text-align: center;
+    }
+    h4 {
+        font-size: 30px !important;
+    }
+    h5 {
+        font-size: 25px !important;
+    }
+    .header {
+        background-size: 100%;
+        background-image: url(../img/Hot-Spo.gif);
+        min-height: 0;
+        background-position: 0 0;
+    }
+    .header2 {
+        background-size: cover;
+    }
+    .body {
+        padding-top: 50px;
+    }
+    .btn2-div {
+        position: relative;
+    }
+    .container {
+        max-width: 500px;
+    }
+    .hot-spot {
+        padding: 270px 0;
+    }
+    .polit {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 20px !important;
+    }
+    .second {
+        font-size: 50px !important;
+        padding: 150px 0;
+    }
+    .btn2-div {
+        background-color: #333333;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+        border: 1px solid #333333;
+        border-top-right-radius: 120px;
+        border-top-left-radius: 120px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+    }
+    .hot-spot {
+        display: flex;
+        justify-content: center;
+        padding: 350px 0;
+    }
+    .desktop {
+        display: none;
+    }
+    .btn {
+        border-radius: 1.2rem !important;
+        font-size: 25px !important;
+        background-image: linear-gradient(to right, #f45743, #ed3949) !important;
+        padding: 7px 20px !important;
+        color: #fff;
+        box-shadow: 0 4px 2px -2px gray;
+    }
+    .body2 {
+        display: none;
+        color: #000 !important;
+    }
+    .polit {
+        color: #fff;
+        text-decoration: none;
+    }
+    .polit:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+}
